@@ -1,35 +1,67 @@
-# Stock_prediction
+# Stock_Prediction
 
-#Introduction
-->We have stock market live pridiction in chart and also shows moving average.
-->this Project also shows to Predicted Stock Portfolio.
+## Introduction
 
-#Technology:-
+-> We have stock market live pridiction in chart and also shows moving average.
+
+-> This Project also shows to Predicted Stock Portfolio.
+
+## Technology
 -> Python
+
 -> Keras Library
+
 -> Numpy and Pandas Library
+
 -> Matplotlib
+
 -> Streamlit App Freamwork
+
 -> Sqlite3 Database
 
-#Description:-
+## Description
 -> we have used streamlit App framework for stock prediction and manage portfolio.
+
 -> Stock market live data fetch in yahoo website.
+
 -> we have used last 5 year data and Pridicted Next 1 year in Stock Portfolio.
+
 -> we Store the data in Sqlite3 database.
+
 -> Stock Market Kears model created and 70% Testing the data and 30% data are Traning.
 
-#Advantage:-
+## Advantage
 -> Stock Market Invester are used to Predicted data next 1 year Return in Portfolio.
+
 -> also Show the charts and Pridicted Charts Shows
 
-#disAdvantege:-
--> New Age or New Listed Company can't Pridicted.
+## Disadvantege
+->  New Age or New Listed Company can't Pridicted.
 
-#Run:-
--> Download The about Zip folder
--> Open Cmd and use command-"streamlit run slidbar.py"
--> Open Database use command-"Sqlite3 data.db"
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install All.
+
+```bash
+pip install conda
+pip install streamlit
+pip install pandas
+pip install pandas-datareader
+pip install numpy
+pip install matplotlib
+pip install keras
+pip install tensorflow
+pip install db-sqlite3
+```
+
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+Yash Kanjiya
 
 #Project:-
 1) Charts
